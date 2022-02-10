@@ -2,11 +2,12 @@
 data = txt_amongus();
 count = 0;
 talking = 0;
-data[talking].event();
+
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 spritecount = 0;
 bg = bk_room;
+going = false;
 
 global.width = 348;
 global.height = 227;

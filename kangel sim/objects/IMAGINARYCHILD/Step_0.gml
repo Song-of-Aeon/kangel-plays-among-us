@@ -1,3 +1,8 @@
+if keyboard_check(vk_enter) && !going {
+	going = true;
+	data[talking].event();
+}
+if !going exit;
 cpp();
 spritecount++;
 if spritecount >= data[talking].looptime spritecount=0;
@@ -10,7 +15,7 @@ if ncm(data[talking].duration) {
 			bg = data[talking].bg;
 		}
 	} else {
-		data[talking] = new speech("", s_end, 9999999);
+		data[talking] = new speech("", s_end, 9999999, 0, function(){audio_play_sound(se_streamend, 0, false)});
 		data[talking].event();
 	}
 }

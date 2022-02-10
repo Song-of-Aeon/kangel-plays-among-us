@@ -1,6 +1,6 @@
 function txt_amongus() {
 	var text = [
-		new speech("Hi everybody!\nIts me, KAngel!", s_intro, 180),
+		new speech("Hi everybody!\nIts me, KAngel!", s_intro, 180, 120, function(){audio_play_sound(m_main, 0, true)}),
 		new speech("Or is it?", s_explain, 180),
 		new speech("Am I really who I appear to be?\nOr am I some sort of... impostor?", s_explain, 300),
 		new speech("That's what this game is about!", s_explain2, 240),

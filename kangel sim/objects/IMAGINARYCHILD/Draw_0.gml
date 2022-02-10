@@ -7,7 +7,7 @@ if spritecount/14 <= sprite_get_info(data[talking].sprite).num_subimages {
 }
 draw_set_color(make_color_hsv(180, 255, 200));
 draw_set_alpha(.5);
-
+if !going exit;
 if data[talking].text != "" {
 	draw_rectangle(
 		global.width/2-string_width(data[talking].text)/2-13,
