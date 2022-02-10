@@ -6,7 +6,7 @@ data[talking].event();
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 spritecount = 0;
-bg = s_bg;
+bg = bk_room;
 
 global.width = 348;
 global.height = 227;
