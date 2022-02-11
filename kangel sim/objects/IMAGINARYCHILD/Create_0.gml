@@ -10,7 +10,7 @@ bg = bk_room;
 going = false;
 
 global.width = 348;
-global.height = 227;
+global.height = 226;
 draw_set_font(font);
 
 spritepos = {

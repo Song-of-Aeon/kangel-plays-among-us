@@ -44,6 +44,7 @@
     {"id":{"name":"s_crying","path":"sprites/s_crying/s_crying.yy",},"order":10,},
     {"id":{"name":"s_explain","path":"sprites/s_explain/s_explain.yy",},"order":5,},
     {"id":{"name":"s_uncertaingaming","path":"sprites/s_uncertaingaming/s_uncertaingaming.yy",},"order":11,},
+    {"id":{"name":"s_bless","path":"sprites/s_bless/s_bless.yy",},"order":34,},
     {"id":{"name":"heya","path":"rooms/heya/heya.yy",},"order":0,},
   ],
   "Options": [
