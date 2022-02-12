@@ -1,6 +1,7 @@
 function txt_amongus() {
 	var text = [
-		new speech("Hi everybody!\nIts me, KAngel!", s_intro, 180, 120, function(){audio_play_sound(m_main, 0, true)}),
+		new speech("", s_null, 1, 0, c_null, bk_waiting),
+		new speech("Hi everybody!\nIts me, KAngel!", s_intro, 180, 120, function(){audio_play_sound(m_main, 0, true)}, bk_room),
 		new speech("Or is it?", s_explain, 180),
 		new speech("Am I really who I appear to be?\nOr am I some sort of... impostor?", s_explain, 300),
 		new speech("That's what this game is about!", s_explain2, 240),
@@ -16,7 +17,7 @@ function txt_amongus() {
 		new speech("That's not true!\nI mean, it is, but...!", s_injustice, 300, 30, c_null, bk_among7),
 		new speech("Listen to me!!\nAgh!", s_injustice, 240, 30, c_null, bk_among8),
 		new speech("You! I know you're watching!", s_omae, 300, 30, c_null, bk_room),
-		new speech("If I ever get my hands on you,\n you cheating piece of-", s_spite, 300),
+		new speech("If I ever get my hands on you,\n you stream-sniping piece of-", s_spite, 300),
 		new speech("...", s_unhappy, 240, 0),
 		new speech("Well, that's the game!\nVery immersive, isn't it?", s_pointing, 300),
 		new speech("Let's see the comments...", s_pointing, 180),

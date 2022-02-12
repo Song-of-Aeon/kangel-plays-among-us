@@ -2,6 +2,7 @@ if keyboard_check(vk_enter) && !going {
 	going = true;
 	data[talking].event();
 }
+if keyboard_check(ord("R")) game_restart();
 if !going exit;
 cpp();
 spritecount++;
@@ -15,7 +16,7 @@ if ncm(data[talking].duration) {
 			bg = data[talking].bg;
 		}
 	} else {
-		data[talking] = new speech("", s_end, 9999999, 0, function(){audio_play_sound(se_streamend, 0, false)});
+		data[talking] = new speech("", s_end, 9999999, 0, function(){audio_stop_all() audio_play_sound(se_streamend, 0, false)});
 		data[talking].event();
 	}
 }

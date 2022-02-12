@@ -6,7 +6,7 @@ talking = 0;
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 spritecount = 0;
-bg = bk_room;
+bg = data[talking].bg;
 going = false;
 
 global.width = 348;
